@@ -7,4 +7,4 @@ class Coche(Vehiculo):
 
     def __str__(self):
         
-        return (f'{self.marca} | {self.modelo} | {self._ligado} | puertas ={self.puertas}')
+       return '{:<25} | {:<25} | {:<25}'.format(self.marca, self.modelo, self.puertas)

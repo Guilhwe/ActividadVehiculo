@@ -5,4 +5,4 @@ class Moto(Vehiculo):
         super().__init__(marca,modelo)
         self.tipo = tipo
     def __str__(self):
-        return (f'{self.marca} | {self.modelo} | {self._ligado} | tipo ={self.tipo}' )
+        return '{:<25} | {:<25} | {:<25}'.format(self.marca, self.modelo, self.tipo)
