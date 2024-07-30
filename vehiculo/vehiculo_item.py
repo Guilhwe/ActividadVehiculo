@@ -6,4 +6,5 @@ class Vehiculo:
     
     def __str__(self):
         return (f'{self.marca} | {self.modelo} | {self._ligado}')
-        
+    
+    
